@@ -1,0 +1,22 @@
+.progress-bar,
+.playback-bar,
+.player-controls__playback-progressbar {
+    position: relative !important;
+}
+
+.progress-bar::before,
+.playback-bar::before,
+.player-controls__playback-progressbar::before {
+    content: " " !important;
+    display: block !important;
+    width: 32px !important;
+    height: 32px !important;
+    position: absolute !important;
+    left: -40px !important;
+    top: -10px !important;
+    image-rendering: pixelated !important;
+    background-size: 32px 32px !important;
+    background-repeat: no-repeat !important;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/240px-Patrick_Star.svg.png") !important;
+    z-index: 9999 !important;
+}
